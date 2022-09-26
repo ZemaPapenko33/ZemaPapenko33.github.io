@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+.loginWindows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: chartreuse;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 3s;
+}
+
+.link:hover{
+    color: black;
+    font-size: 30px;
+}
